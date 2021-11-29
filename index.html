@@ -91,37 +91,33 @@
 
      .flexFour {
          display: flex;
-         flex-direction: row-reverse;
-         flex-wrap: 350px;
+         flex-wrap: wrap;
      }
 
-
-     .square10 {
+     .flexFour div {
         margin: 5px;
-        background-color:green;
-     }
-
-    .square11{
-        margin: 5px;
-        height: 50px;
+        height: 100px;
         width: 350px;
-        background-color:green;
-    }
-
-     .square12 {
-        margin: 5px;
-        height: 50px;
-        width: 350px;
-        background-color:green;
+        background-color:#3d8b6d;
      }
 
-     .square13 {
-        margin: 5px;
-        height: 50px;
-        width: 350px;
-        background-color:green;
+     .flexFive {
+         display: flex;
      }
 
+     .flexFive div{
+        margin: 2px;
+        height: 100px;
+        width: 100px;
+        background-color:#3d8b6d;
+     }
+
+     .square15 {
+         display: flex;
+         flex-grow: 2;
+     }
+
+     
 
 
 </style>
@@ -145,11 +141,22 @@
     </div>
 
     <div class="flexFour">
-        <div class="square10"></div>
-        <div class="square11"></div>
-        <div class="square12"></div>
-        <div class="square13"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
     </div>
+
+    <div class="flexFive">
+        <div class="square"></div>
+        <div class="square15"></div>
+        <div class="square"></div>
+    </div>
+
+    <div class="flexSix">
+
+    </div>
+
 
 
 </body>
