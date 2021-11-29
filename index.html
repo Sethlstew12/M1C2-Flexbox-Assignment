@@ -6,7 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M1C2 Flexbox Assignment</title>
 </head>
+<style>
+     .flexone {
+         margin: 5px;
+         display: flex;
+         justify-content: space-around;
+         
+     }
+
+     .flexone div {
+         display: flex;
+         align-items: center;
+         align-content: space-between;
+         justify-content: space-between;
+     }
+
+
+
+    .square1 {
+        height: 50px;
+        width: 50px;
+        background-color:blue;
+        justify-content: space-between;
+        justify-content: space-around;
+
+     }
+
+     .square2 {
+        height: 50px;
+        width: 50px;
+        background-color:red;
+        align-content: space-around;
+     }
+
+     .square3 {
+        height: 50px;
+        width: 50px;
+        background-color:green;
+     }
+    
+
+
+</style>
 <body>
-    <h1>Hello World</h1>
+    <div class="flexone">
+        <div class="square1">Hello
+
+        </div>
+        <div class="square2">World
+            
+        </div>
+        <div class="square3">Cool
+
+        </div>
+    </div>
+
 </body>
 </html>
