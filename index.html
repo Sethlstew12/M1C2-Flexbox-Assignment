@@ -117,7 +117,50 @@
          flex-grow: 2;
      }
 
-     
+     .flexSix {
+         display: flex;
+         flex-direction: column;
+         height:400px;
+         width: 500px;
+         background-color: #f1f1f1;
+     }
+
+     .one div {
+         margin: 5px;
+         width: 50px;
+         height: 50px;
+         background-color: purple;
+     }
+
+     .one {
+         display: flex;
+         justify-content: space-around;
+     }
+
+     .two div {
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        background-color: purple;
+     }
+
+     .two {
+         display: flex;
+         justify-content: space-between;
+         background-color: #d6d6d6;
+     }
+
+     .three div {
+        margin: 5px;
+         width: 50px;
+         height: 50px;
+         background-color: purple;
+     }
+
+     .three {
+         display: flex;
+         justify-content: space-evenly;
+     }
 
 
 </style>
@@ -154,10 +197,23 @@
     </div>
 
     <div class="flexSix">
-
+        <div class="one">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div class="two">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div class="three">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
     </div>
-
-
+    
 
 </body>
 </html>
