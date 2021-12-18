@@ -228,12 +228,21 @@
         width: 400px;
         height: 300px;
         background-color: #eeeeee;
-        flex-direction: column;
+    }
+
+    .box1 div {
+        margin: 2px;
+        width: 50px;
+        height: 50px;
+        background-color: blue;
     }
 
     .box1 {
         display: flex;
         align-items: center;
+    }
+
+    .box2 div {
         margin: 2px;
         width: 50px;
         height: 50px;
@@ -243,6 +252,9 @@
     .box2 {
         display: flex;
         align-items: flex-end;
+    }
+
+    .box3 div {
         margin: 2px;
         width: 50px;
         height: 50px;
@@ -252,10 +264,6 @@
     .box3 {
         display: flex;
         align-items: flex-start;
-        margin: 2px;
-        width: 50px;
-        height: 50px;
-        background-color: blue;
     }
 
     .flexNine {
@@ -263,6 +271,19 @@
         width: 450px;
         height: 250px;
         background-color:  #eeeeee;
+        justify-content:space-between;
+    }
+
+    .flexNine div {
+        margin: 2px;
+        width: 50px;
+        height: 50px;
+        background-color: blue;
+    }
+
+    #special {
+        display: flex;
+        align-self: flex-end;
     }
 
 
@@ -352,7 +373,6 @@
             </div>
             <div class="box3">
                 <div class="square"></div>
-            </div>
             </div>
         </div>
         <div class="flexNine">
